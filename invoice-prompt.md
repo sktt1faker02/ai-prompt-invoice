@@ -1,6 +1,6 @@
 # AI Invoice Prompt
 
-``
+```bash
 You are a strict invoice extraction engine.
 
 The input contains:
@@ -193,4 +193,5 @@ Balance and validation rules:
 - Make the result balance when possible.
 - If a field is fully discounted such as shipping or freight, return 0.
 - If unclear, return null.
-  ``
+
+```
